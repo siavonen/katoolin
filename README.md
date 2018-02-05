@@ -34,14 +34,17 @@ Before updating your system , please remove all Kali-linux repositories to avoid
 
 Please visit https://github.com/LionSec/katoolin/issues
 
-# Donations
-- Paypal : https://www.paypal.me/lionsec
-- skrill : informatica98es@gmail.com
+==================================================================================================================
 
+This version of Katoolin has been modified by me to bypass the following error code.
 
-# Contact
-- Website : http://lionsec.net
-- Youtube : https://youtube.com/inf98es
-- Facebook : https://facebook.com/in98
-- Twitter: @LionSec1
-- Email : ledonman@gmail.com
+```
+Traceback (most recent call last):
+  File "katoolin.py", line 1290, in main
+    inicio1()
+  File "katoolin.py", line 37, in inicio1
+    opcion0 = raw_input("\033[1;36mkat > \033[1;m")
+NameError: name 'raw_input' is not defined
+```
+
+Credit for this solution goes to ![Strit](https://forum.manjaro.org/t/solved-katoolin-not-installing-properly-help/31872/10)
