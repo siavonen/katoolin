@@ -34,7 +34,7 @@ Before updating your system , please remove all Kali-linux repositories to avoid
 
 Please visit https://github.com/LionSec/katoolin/issues
 
-==================================================================================================================
+=================================================================================
 
 This version of Katoolin has been modified by me to bypass the following error code.
 
